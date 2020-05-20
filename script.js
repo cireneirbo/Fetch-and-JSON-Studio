@@ -1,4 +1,4 @@
- document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function() {
     fetch("https://handlers.education.launchcode.org/static/astronauts.json").then( function(response) {
         response.json().then( function(json) {
             const div = document.getElementById("container");
